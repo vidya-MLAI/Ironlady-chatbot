@@ -16,15 +16,7 @@ A smart, interactive AI chatbot that answers **FAQs about IronLady leadership pr
 - **Auto-clearing input** after sending a message.  
 - **Chat history saved** in session state.  
 - Export chat history as **Markdown file** for reference or documentation.  
-- Fully safe: **API key is never exposed** in the repository.  
-
----
-
-## 📸 Demo / Screenshots
-
-*Add a GIF or screenshot showing the chatbot in action.*  
-
-![Chatbot Demo](./assets/chat_demo.gif)  
+  
 
 ---
 
@@ -53,4 +45,87 @@ A smart, interactive AI chatbot that answers **FAQs about IronLady leadership pr
 ```bash
 git clone https:/vidya-MLAI/github.com//ironlady-chatbot.git
 cd ironlady-chatbot
+
+**Create a virtual environment and activate**
+
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# Mac/Linux
+source .venv/bin/activate
+
+
+**Install dependencies**
+
+pip install -r requirements.txt
+
+**Prepare database**
+
+Make sure the faq_data.db (or your FAQ database file) is in the same directory.
+
+Add your questions and answers if needed.
+
+Running the App
+streamlit run app.py
+
+
+Open the URL shown in your terminal (usually http://localhost:8501).
+
+Type your questions in the input box and press Enter or Submit.
+
+The chatbot will respond based on stored FAQs or AI-generated answers (if enabled).
+
+Create a virtual environment and activate
+
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# Mac/Linux
+source .venv/bin/activate
+
+
+Install dependencies
+
+pip install -r requirements.txt
+
+
+Prepare database
+
+Make sure the faq_data.db (or your FAQ database file) is in the same directory.
+
+Add your questions and answers if needed.
+
+Running the App
+streamlit run app.py
+
+
+Open the URL shown in your terminal (usually http://localhost:8501).
+
+Type your questions in the input box and press Enter or Submit.
+
+The chatbot will respond based on stored FAQs or AI-generated answers (if enabled).
+
+**GUI Overview**
+
+Input box: Enter your query.
+
+Chat window: Displays conversation history.
+
+Optional AI features: Can be added for dynamic answers.
+
+**Notes**
+
+Ensure Python 3.9+ is installed.
+
+Database must be in place to answer FAQ questions.
+
+Easily extendable to include AI-based recommendations or more interactive features.
+
+Input box: Enter your query.
+
+Chat window: Displays conversation history.
+
+Optional AI features: Can be added for dynamic answers.
+
+
 
