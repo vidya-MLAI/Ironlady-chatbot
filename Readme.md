@@ -51,5 +51,6 @@ A smart, interactive AI chatbot that answers **FAQs about IronLady leadership pr
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/ironlady-chatbot.git
+git clone https:/vidya-MLAI/github.com//ironlady-chatbot.git
 cd ironlady-chatbot
+
